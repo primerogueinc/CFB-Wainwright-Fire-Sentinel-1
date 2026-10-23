@@ -1,0 +1,83 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-19",
+ "mode": "IW",
+ "polarisations": "VV+VH",
+ "acquisition": "Not recorded in the export. Sentinel-1 passes over the base near 01:00 UTC (ascending, evening of the previous local day) or 13:30 UTC (descending, morning).",
+ "layers": [
+  "Enhanced_visualization",
+  "RGB_ratio",
+  "SAR_urban",
+  "VH_(Raw)",
+  "VH_-_decibel_gamma0",
+  "VH_-_linear_gamma0",
+  "VV_(Raw)",
+  "VV_-_decibel_gamma0"
+ ],
+ "n_files": 8,
+ "qa": {
+  "georeferenced": true,
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.000145843505859375,
+   8.830239667214436e-05
+  ],
+  "pixel_m_approx": [
+   9.8,
+   9.8
+  ],
+  "bounds": [
+   -111.01067,
+   52.67848,
+   -110.64606,
+   52.83266
+  ],
+  "covers_points": {
+   "origin": true,
+   "A_range2": true,
+   "B_road_head": true
+  },
+  "fire_box_valid_frac": 0.998,
+  "usable": true
+ },
+ "previews": [
+  "preview_enhanced.jpg"
+ ],
+ "original_upload": "Browser_images__24_.zip",
+ "original_upload_sha256": "90e3d66dfbc44030def51f801e8b41a85f80d2d8082890342e8ceb85bfc64797",
+ "files": {
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_Enhanced_visualization.tiff": {
+   "bytes": 45927094,
+   "sha256": "f4d6af07fb83cd442394c0e08632bdb52da47e5a8fc3193b8eded7b861eeb906"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_RGB_ratio.tiff": {
+   "bytes": 44807795,
+   "sha256": "ae640b777780064c8a91c045dbd38a3f9b94fffb7367ad918030e5a4786f5af3"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_SAR_urban.tiff": {
+   "bytes": 33971549,
+   "sha256": "79b07d6b814566a46ebb284d1d38686dbe335b75ad66ba0ab7d8b1c55cb13074"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_VH_(Raw).tiff": {
+   "bytes": 15139856,
+   "sha256": "4410abfb072c8fff446bb114530fc84e682625234fa756953818c0025ec99a46"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_VH_-_decibel_gamma0.tiff": {
+   "bytes": 6259483,
+   "sha256": "ecd6cd5d5a501a050b78d4edece108a2f7a429bbc20f1d8c2eb675a5744296af"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_VH_-_linear_gamma0.tiff": {
+   "bytes": 16568189,
+   "sha256": "20a63902f1b93eef3e642b2df2796c4861799a631e68b49665b75c8a6e398c04"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_VV_(Raw).tiff": {
+   "bytes": 15287526,
+   "sha256": "dade4fc01c1b3489d0523969af63807914d4777b7251160952d8735897f80515"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-1_IW_VV_VH_VV_-_decibel_gamma0.tiff": {
+   "bytes": 15231246,
+   "sha256": "5b81aa715544ae7d13827484210790e520f8648f3887ef8498e2bf64c9f74172"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
