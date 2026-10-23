@@ -10,11 +10,12 @@ Each folder `sentinel-1/<date UTC>/<mode>_<polarisations>/` holds the files exac
 
 | Date (UTC) | Mode | Polarisations | Files | Covers fire area | Folder |
 |---|---|---|---|---|---|
+| 2026-10-14 | IW | VV + VH | 9 | Yes, about 10 m pixels (before the fire) | [`sentinel-1/2026-10-14/IW_VV_VH/`](sentinel-1/2026-10-14/IW_VV_VH/) |
 | 2026-10-19 | IW | VV + VH | 8 | Yes, about 10 m pixels | [`sentinel-1/2026-10-19/IW_VV_VH/`](sentinel-1/2026-10-19/IW_VV_VH/) |
 
 **Acquisition time.** Browser exports carry the UTC date, not the time or orbit direction. Over Wainwright, Sentinel-1 passes near 01:00 UTC (ascending; that is the previous evening, local time) or near 13:30 UTC (descending; morning). Where known, the manifest records it.
 
-**First reading, Oct. 19.** Against the burn mapped from Sentinel-2 (Oct. 4 vs Oct. 19), burned ground is darker in radar than unburned ground: median VV −18.7 dB vs −16.8 dB, VH −28.3 dB vs −24.6 dB. Comparing passes with the same orbit before and after the fire will map the burn more sharply.
+**First reading, Oct. 19.** Against the burn mapped from Sentinel-2 (Oct. 4 vs Oct. 19), burned ground is darker in radar than unburned ground: median VV −18.7 dB vs −16.8 dB, VH −28.3 dB vs −24.6 dB. Against the Oct. 14 pass, burned ground darkened about 2 dB more than unburned ground in both channels; everything darkened somewhat, most likely because the two passes came from different orbit tracks. Analysis: [`data/sentinel1/change_oct14_oct19`](https://github.com/primerogueinc/cfb-wainwright-fire-archive/tree/authentic-stoic-alternative-hypothesis/data/sentinel1/change_oct14_oct19) in the fire archive.
 
 ## Adding an export
 
